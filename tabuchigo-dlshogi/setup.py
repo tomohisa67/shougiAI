@@ -1,7 +1,7 @@
 ﻿import setuptools
 
 setuptools.setup(
-    name = 'python-dlshogi',
+    name = 'tabuchigo-dlshogi',
     version = '0.0.1',
     author = '',
     packages = ['pydlshogi'],
