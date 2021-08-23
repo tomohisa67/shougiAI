@@ -5,22 +5,23 @@ import chainer.links as L
 from pydlshogi.common import *
 
 ch = 192
+k = 3
 class PolicyNetwork(Chain):
     def __init__(self):
         super(PolicyNetwork, self).__init__()
         with self.init_scope():
-            self.l1=L.Convolution2D(in_channels = 104, out_channels = ch, ksize = 3, pad = 1)
-            self.l2=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l3=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l4=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l5=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l6=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l7=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l8=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l9=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l10=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l11=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
-            self.l12=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = 3, pad = 1)
+            self.l1=L.Convolution2D(in_channels = 104, out_channels = ch, ksize = k, pad = 1)
+            self.l2=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l3=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l4=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l5=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l6=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l7=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l8=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l9=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l10=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l11=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
+            self.l12=L.Convolution2D(in_channels = ch, out_channels = ch, ksize = k, pad = 1)
             self.l13=L.Convolution2D(in_channels = ch, out_channels = MOVE_DIRECTION_LABEL_NUM, ksize = 1, nobias = True)
             self.l13_bias=L.Bias(shape=(9*9*MOVE_DIRECTION_LABEL_NUM))
 
