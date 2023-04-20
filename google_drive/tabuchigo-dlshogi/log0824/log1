@@ -1,0 +1,54 @@
+2021/08/24 02:50:39	INFO	read kifu start
+2021/08/24 02:50:41	INFO	load train pickle
+2021/08/24 02:50:42	INFO	load test pickle
+2021/08/24 02:50:42	INFO	read kifu end
+2021/08/24 02:50:42	INFO	train position num = 139865
+2021/08/24 02:50:42	INFO	test position num = 14217
+2021/08/24 02:50:42	INFO	start training
+2021/08/24 02:50:46	INFO	epoch = 1, iteration = 100, loss = 7.671308994293213, accuracy = 0.0078125
+2021/08/24 02:50:50	INFO	epoch = 1, iteration = 200, loss = 7.61053466796875, accuracy = 0.013671875
+2021/08/24 02:50:54	INFO	epoch = 1, iteration = 300, loss = 7.344308376312256, accuracy = 0.015625
+2021/08/24 02:50:58	INFO	epoch = 1, iteration = 400, loss = 6.981583118438721, accuracy = 0.009765625
+2021/08/24 02:51:02	INFO	epoch = 1, iteration = 500, loss = 6.763299465179443, accuracy = 0.013671875
+2021/08/24 02:51:05	INFO	epoch = 1, iteration = 600, loss = 6.674418926239014, accuracy = 0.01171875
+2021/08/24 02:51:09	INFO	epoch = 1, iteration = 700, loss = 6.510235786437988, accuracy = 0.0078125
+2021/08/24 02:51:13	INFO	epoch = 1, iteration = 800, loss = 6.5051422119140625, accuracy = 0.01171875
+2021/08/24 02:51:17	INFO	epoch = 1, iteration = 900, loss = 6.452194690704346, accuracy = 0.01171875
+2021/08/24 02:51:21	INFO	epoch = 1, iteration = 1000, loss = 6.418808460235596, accuracy = 0.0234375
+2021/08/24 02:51:25	INFO	epoch = 1, iteration = 1100, loss = 6.432194709777832, accuracy = 0.009765625
+2021/08/24 02:51:29	INFO	epoch = 1, iteration = 1200, loss = 6.365048408508301, accuracy = 0.029296875
+2021/08/24 02:51:33	INFO	epoch = 1, iteration = 1300, loss = 6.352863311767578, accuracy = 0.02734375
+2021/08/24 02:51:36	INFO	epoch = 1, iteration = 1400, loss = 6.326190948486328, accuracy = 0.03125
+2021/08/24 02:51:40	INFO	epoch = 1, iteration = 1500, loss = 6.319650650024414, accuracy = 0.025390625
+2021/08/24 02:51:44	INFO	epoch = 1, iteration = 1600, loss = 6.276263236999512, accuracy = 0.013671875
+2021/08/24 02:51:47	INFO	epoch = 1, iteration = 1700, loss = 6.336414337158203, accuracy = 0.03515625
+2021/08/24 02:51:51	INFO	epoch = 1, iteration = 1800, loss = 6.322880268096924, accuracy = 0.029296875
+2021/08/24 02:51:55	INFO	epoch = 1, iteration = 1900, loss = 6.243251323699951, accuracy = 0.02734375
+2021/08/24 02:51:59	INFO	epoch = 1, iteration = 2000, loss = 6.254481315612793, accuracy = 0.015625
+2021/08/24 02:52:03	INFO	epoch = 1, iteration = 2100, loss = 6.215378284454346, accuracy = 0.02734375
+2021/08/24 02:52:06	INFO	epoch = 1, iteration = 2200, loss = 6.191832065582275, accuracy = 0.0234375
+2021/08/24 02:52:10	INFO	epoch = 1, iteration = 2300, loss = 6.213461399078369, accuracy = 0.02734375
+2021/08/24 02:52:14	INFO	epoch = 1, iteration = 2400, loss = 6.219561576843262, accuracy = 0.033203125
+2021/08/24 02:52:17	INFO	epoch = 1, iteration = 2500, loss = 6.1974196434021, accuracy = 0.025390625
+2021/08/24 02:52:21	INFO	epoch = 1, iteration = 2600, loss = 6.175877571105957, accuracy = 0.02734375
+2021/08/24 02:52:25	INFO	epoch = 1, iteration = 2700, loss = 6.174556732177734, accuracy = 0.02734375
+2021/08/24 02:52:29	INFO	epoch = 1, iteration = 2800, loss = 6.115782260894775, accuracy = 0.04296875
+2021/08/24 02:52:32	INFO	epoch = 1, iteration = 2900, loss = 6.173389911651611, accuracy = 0.033203125
+2021/08/24 02:52:36	INFO	epoch = 1, iteration = 3000, loss = 6.106356143951416, accuracy = 0.04296875
+2021/08/24 02:52:40	INFO	epoch = 1, iteration = 3100, loss = 6.125449180603027, accuracy = 0.03125
+2021/08/24 02:52:44	INFO	epoch = 1, iteration = 3200, loss = 6.089993476867676, accuracy = 0.046875
+2021/08/24 02:52:47	INFO	epoch = 1, iteration = 3300, loss = 6.0718512535095215, accuracy = 0.037109375
+2021/08/24 02:52:51	INFO	epoch = 1, iteration = 3400, loss = 6.132899761199951, accuracy = 0.048828125
+2021/08/24 02:52:55	INFO	epoch = 1, iteration = 3500, loss = 6.0398054122924805, accuracy = 0.037109375
+2021/08/24 02:52:58	INFO	epoch = 1, iteration = 3600, loss = 6.114439487457275, accuracy = 0.0390625
+2021/08/24 02:53:02	INFO	epoch = 1, iteration = 3700, loss = 6.032646656036377, accuracy = 0.041015625
+2021/08/24 02:53:06	INFO	epoch = 1, iteration = 3800, loss = 6.113164901733398, accuracy = 0.03515625
+2021/08/24 02:53:10	INFO	epoch = 1, iteration = 3900, loss = 6.054419040679932, accuracy = 0.0390625
+2021/08/24 02:53:13	INFO	epoch = 1, iteration = 4000, loss = 6.050086498260498, accuracy = 0.029296875
+2021/08/24 02:53:17	INFO	epoch = 1, iteration = 4100, loss = 6.100804328918457, accuracy = 0.029296875
+2021/08/24 02:53:21	INFO	epoch = 1, iteration = 4200, loss = 6.059584140777588, accuracy = 0.033203125
+2021/08/24 02:53:24	INFO	epoch = 1, iteration = 4300, loss = 6.041012763977051, accuracy = 0.04296875
+2021/08/24 02:53:27	INFO	validate test data
+2021/08/24 02:53:37	INFO	epoch = 1, iteration = 4370, train loss avr = 6.343776226043701, test accuracy = 0.030546171590685844
+2021/08/24 02:53:37	INFO	save the model
+2021/08/24 02:53:37	INFO	save the optimizer

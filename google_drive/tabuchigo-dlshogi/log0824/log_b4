@@ -1,0 +1,11 @@
+2021/08/24 06:11:06	INFO	read kifu start
+2021/08/24 06:11:08	INFO	load train pickle
+2021/08/24 06:11:08	INFO	load test pickle
+2021/08/24 06:11:08	INFO	read kifu end
+2021/08/24 06:11:08	INFO	train position num = 139865
+2021/08/24 06:11:08	INFO	test position num = 14217
+2021/08/24 06:11:08	INFO	start training
+2021/08/24 06:16:34	INFO	validate test data
+2021/08/24 06:16:45	INFO	epoch = 1, iteration = 2185, train loss avr = 6.3859028816223145, test accuracy = 0.04701576754450798
+2021/08/24 06:16:45	INFO	save the model
+2021/08/24 06:16:51	INFO	save the optimizer
